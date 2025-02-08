@@ -18,7 +18,7 @@ namespace MyHobbiesMission5.Controllers
             return View();
         }
 
-        public IActionResult Tutorial()
+        public IActionResult Classes()
         {
             return View();
         }

@@ -1,8 +1,8 @@
-﻿// this is my code for the jQuery section
-// it creates the functionality for the Hourly Rate for making cookies with me!
-
-$(document).ready(function () {
+﻿$(document).ready(function () {
     const hourlyRate = 20.0; // Cost per hour
+
+    // Set the hourly rate display in the non-editable input box
+    $("#hourlyRateDisplay").val(`$${hourlyRate.toFixed(2)}`);
 
     $("#calculateButton").click(function () {
         const hours = parseInt($("#hours").val());
