@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\cookie.png" />
+    <None Include="wwwroot\favicon.ico" />
+    <None Include="wwwroot\images\levains.png" />
+  </ItemGroup>
+
+</Project>
